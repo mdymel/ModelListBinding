@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>ModelListBinding</title>
+
+	<style type="text/css">
+
+		body {
+			text-align: center;
+		}
+
+	</style>
+
+</head>
+<body>
+	<form name="input" action="/new/" method="post">
+		First Name: <input type="text" name="Text1"><br />
+		Last Name: <input type="text" name="Text2"><br />
+		Address1: <input type="text" name="List"><br />
+		Address2: <input type="text" name="List"><br />
+		<input type="submit" value="Submit">
+	</form> 
+</body>
+</html>
